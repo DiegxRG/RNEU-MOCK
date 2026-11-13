@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-12",
+  "scope": "project",
+  "agent": "codex",
+  "skills": [
+    {
+      "name": "find-skills",
+      "repository": "vercel-labs/skills",
+      "installer": "skills",
+      "purpose": "Descubrir habilidades adicionales cuando aparezca una necesidad concreta.",
+      "requiredPaths": ["SKILL.md"]
+    },
+    {
+      "name": "frontend-design",
+      "repository": "anthropics/skills",
+      "installer": "skills",
+      "purpose": "Dirigir la identidad visual, tipografia, composicion y acabado de NeuroLab.",
+      "requiredPaths": ["SKILL.md"]
+    },
+    {
+      "name": "doc-coauthoring",
+      "repository": "anthropics/skills",
+      "installer": "skills",
+      "purpose": "Redactar requisitos, especificaciones, explicaciones y manuales comprensibles.",
+      "requiredPaths": ["SKILL.md"]
+    },
+    {
+      "name": "webapp-testing",
+      "repository": "anthropics/skills",
+      "installer": "skills",
+      "purpose": "Verificar recorridos de usuario, errores y capturas de la aplicacion ejecutandose.",
+      "requiredPaths": ["SKILL.md", "scripts/with_server.py"]
+    },
+    {
+      "name": "web-design-guidelines",
+      "repository": "vercel-labs/agent-skills",
+      "installer": "skills",
+      "purpose": "Revisar accesibilidad, formularios, navegacion y calidad de interfaz.",
+      "requiredPaths": ["SKILL.md"]
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "repository": "vercel-labs/agent-skills",
+      "installer": "skills",
+      "purpose": "Controlar renders, carga y rendimiento de graficos y pantallas React.",
+      "requiredPaths": ["SKILL.md", "AGENTS.md", "rules"]
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "repository": "vercel-labs/agent-skills",
+      "installer": "skills",
+      "purpose": "Organizar componentes, paneles y controles reutilizables sin APIs confusas.",
+      "requiredPaths": ["SKILL.md", "AGENTS.md", "rules"]
+    },
+    {
+      "name": "architecture-patterns",
+      "repository": "wshobson/agents",
+      "installer": "skills",
+      "purpose": "Separar dominio, casos de uso y adaptadores; consultar sus patrones backend solo si corresponde.",
+      "requiredPaths": ["SKILL.md", "references/details.md", "references/advanced-patterns.md"]
+    },
+    {
+      "name": "architecture-decision-records",
+      "repository": "wshobson/agents",
+      "installer": "skills",
+      "purpose": "Registrar decisiones importantes, alternativas, consecuencias y cambios de alcance.",
+      "requiredPaths": ["SKILL.md", "references/decision-templates.md", "references/deprecation-rfc-templates.md"]
+    },
+    {
+      "name": "typescript-advanced-types",
+      "repository": "wshobson/agents",
+      "installer": "skills",
+      "purpose": "Definir contratos de capas, datasets, eventos y estados con tipos claros.",
+      "requiredPaths": ["SKILL.md", "references/details.md"]
+    },
+    {
+      "name": "javascript-testing-patterns",
+      "repository": "wshobson/agents",
+      "installer": "skills",
+      "purpose": "Comprobar calculos neuronales, invariantes, transiciones y persistencia.",
+      "requiredPaths": ["SKILL.md", "references/advanced-testing-patterns.md"]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "installer": "ui-ux-pro-max-cli",
+      "purpose": "Consultar fundamentos de UX, paletas, tipografia, graficos y criterios de diseno coherentes.",
+      "requiredPaths": [
+        "SKILL.md",
+        "scripts/search.py",
+        "scripts/core.py",
+        "scripts/design_system.py",
+        "data/styles.csv",
+        "data/colors.csv",
+        "data/products.csv",
+        "data/typography.csv",
+        "data/charts.csv",
+        "data/ux-guidelines.csv",
+        "data/ui-reasoning.csv",
+        "data/stacks/react.csv"
+      ],
+      "referenceAlternatives": [
+        { "file": "references/quick-reference.md", "embeddedHeading": "Quick Reference" },
+        { "file": "references/pro-rules.md", "embeddedHeading": "Common Rules for Professional UI" },
+        { "file": "references/pro-rules.md", "embeddedHeading": "Pre-Delivery Checklist" }
+      ]
+    }
+  ]
+}

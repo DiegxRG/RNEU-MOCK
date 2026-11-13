@@ -1,0 +1,45 @@
+/** User-facing explanations. Keep domain language here, outside visual components. */
+const topics: [RegExp, string][] = [
+  [/distribución de pesos/i, 'Agrupa los pesos de todas las capas en intervalos. Las barras muestran cuántos pesos tienen valores cercanos; azul representa intervalos positivos y coral negativos. El sesgo no se incluye. Cambia al recibir nuevos checkpoints.'],
+  [/parámetros/i, 'Cantidad de pesos y sesgos ajustables. Cada capa densa aporta (número de entradas + 1) multiplicado por su número de neuronas. Una red más grande no garantiza un mejor resultado.'],
+  [/laboratorio neuronal/i, 'Diseña la arquitectura y ejecuta el aprendizaje. El diagrama muestra activaciones y conexiones de la muestra seleccionada; las gráficas se actualizan con las métricas calculadas por el motor.'],
+  [/configura|configuración/i, 'Define las capas, la activación y los parámetros de aprendizaje. La configuración queda congelada durante una ejecución para poder reproducir sus resultados.'],
+  [/arquitectura|topología/i, 'Cada columna es una capa y cada círculo una neurona. El color y grosor de las conexiones representan signo y magnitud del peso. Selecciona una neurona para ver su cálculo.'],
+  [/inspector/i, 'Muestra los valores exactos de una neurona: entradas, pesos, sesgo, suma ponderada, activación y gradientes. Cambiar la muestra de inspección no modifica el dataset de entrenamiento.'],
+  [/frontera|mapa de decisión/i, 'Los puntos son muestras con sus clases reales. El fondo indica la probabilidad que calcula la red en cada región. Una frontera que separa los colores puede indicar que aprendió el patrón.'],
+  [/curva|pérdida|error de aprendizaje/i, 'La pérdida BCE mide el error: menor es mejor. La línea de entrenamiento usa los datos que ajustan los pesos; la de validación usa datos retenidos. Puedes consultar cada época con el cursor o el teclado.'],
+  [/exactitud|accuracy/i, 'Porcentaje de muestras cuya clase predicha coincide con la real, usando un umbral de probabilidad de 0,5. No es lo mismo que la pérdida ni garantiza rendimiento con otros datos.'],
+  [/ciclo|flujo neuronal/i, 'Propagación: la entrada avanza hacia la predicción. Error: se compara con la respuesta esperada. Retropropagación: el gradiente vuelve hacia las entradas. Actualización: SGD ajusta los pesos. Las partículas ilustran estas etapas; las cifras proceden de los checkpoints calculados.'],
+  [/distribución de clases/i, 'Cantidad real de muestras de cada clase. Un dataset desequilibrado puede producir una exactitud alta sin aprender bien la clase minoritaria.'],
+  [/distribución de variables|histograma/i, 'Agrupa los valores de una variable en intervalos. La altura de cada barra indica cuántas muestras caen en ese rango; ayuda a detectar concentración, dispersión y valores extremos.'],
+  [/partición|conjunto para cada/i, 'Train ajusta los pesos; validación permite observar generalización; test se reserva para la evaluación final. Los conjuntos no comparten muestras y el escalado se aprende únicamente con train.'],
+  [/confusión/i, 'Las filas representan la clase real y las columnas la predicción. La diagonal contiene aciertos; las otras celdas contienen errores. Los valores son recuentos del conjunto de prueba.'],
+  [/comparación|rendimiento por experimento/i, 'Compara resultados calculados de las ejecuciones completadas. Una comparación controlada requiere el mismo dataset y la misma partición; cambiar los datos cambia la dificultad del problema.'],
+  [/registro de modelos|modelo v/i, 'Cada versión conserva una instantánea de arquitectura, pesos, escalado y resultados. Sus parámetros no se sobrescriben; el estado de revisión puede avanzar según el rol de demostración.'],
+  [/reporte|informe|evidencia/i, 'Reúne la configuración y los resultados de una ejecución. Exporta las métricas por época como CSV o guarda el informe como PDF desde el diálogo de impresión.'],
+  [/predicción|muestra nueva/i, 'Aplica el escalado guardado y los pesos de la ejecución a nuevas entradas. El resultado es una probabilidad del modelo, no una certeza garantizada.'],
+  [/entrenamiento|experimento/i, 'Una ejecución ajusta los pesos con SGD y guarda métricas por época. Puedes pausar entre checkpoints y continuar con la misma semilla y configuración.'],
+  [/proyectos/i, 'Espacios de trabajo que agrupan datos, arquitectura, ejecuciones y versiones. Los indicadores del resumen incluyen los proyectos guardados en este navegador.'],
+  [/actividad|auditoría/i, 'Historial local de acciones realizadas y cambios de estado, con fecha, proyecto y rol simulado. Se conservan los 300 eventos más recientes.'],
+  [/estado de ejecuciones|ejecuciones por estado/i, 'Distribución actual de ejecuciones completadas, en curso, pausadas, canceladas y fallidas. Cambia en vivo al avanzar o controlar un entrenamiento.'],
+  [/resumen|investigación|visión general/i, 'Vista global de proyectos, ejecuciones, versiones y resultados. Los indicadores se actualizan con la actividad local y no incluyen datos de ejemplo inventados.'],
+  [/datos para|dataset|muestras|esquema/i, 'Conjunto de ejemplos que usa la red. Cada muestra incluye variables numéricas y una clase objetivo. Puedes explorar datos sintéticos o importar un CSV binario.'],
+  [/administración|roles/i, 'Los roles controlan las acciones disponibles en esta demostración. El cambio de rol es educativo y no sustituye un sistema de identidad o autenticación multiusuario.'],
+  [/límites|motor local/i, 'El cálculo se realiza en tu navegador con límites de filas, capas, unidades y épocas para mantener una experiencia manejable. La ejecución depende de que la pestaña permanezca abierta.'],
+  [/capas ocultas/i, 'Las capas intermedias aprenden representaciones del patrón. Cada capa permite de 1 a 12 neuronas. XOR necesita una transformación no lineal para separar sus cuadrantes.'],
+  [/activación/i, 'Transformación de la suma ponderada. Tanh, ReLU y Sigmoid tienen formas y derivadas diferentes; estas diferencias influyen en cómo se propaga el gradiente.'],
+  [/tasa de aprendizaje/i, 'Tamaño del ajuste en cada actualización. Una tasa pequeña puede aprender lentamente; una grande puede oscilar o empeorar el error.'],
+  [/épocas/i, 'Número de recorridos completos del conjunto de entrenamiento. Más épocas no garantizan mejor generalización.'],
+  [/lote/i, 'Muestras cuyos gradientes se promedian antes de actualizar los pesos. Lotes pequeños producen más actualizaciones por época.'],
+  [/semilla/i, 'Valor que hace reproducible la inicialización de pesos. Mismos datos, configuración y semillas producen la misma secuencia de cálculo en este motor.'],
+  [/fundamentos|entender antes|aprende experimentando/i, 'Cuatro experiencias interactivas: ajusta una neurona, dibuja y aplica filtros, explora la memoria de una secuencia y recorre un duelo generativo escalar. Cada misión incluye una pregunta para comprobar lo aprendido.'],
+  [/neurona|entrada|sesgo|peso/i, 'Una neurona calcula z = Σ(x·w) + b y transforma z con una activación. Los pesos y el sesgo se ajustan a partir del gradiente de la pérdida.'],
+  [/convolucional|kernel|filtro|mapa de características/i, 'Un filtro comparte los mismos pesos al recorrer ventanas de la entrada. Aquí puedes inspeccionar los productos que producen cada celda del mapa.'],
+  [/recurrente|celda|estado que cambia/i, 'Una RNN combina la entrada del paso actual con el estado anterior. Esta exploración muestra una celda con pesos fijos para hacer visible esa dependencia temporal.'],
+  [/adversarial|generador|discriminador/i, 'El generador produce muestras y el discriminador distingue reales de generadas. El duelo escalar de Fundamentos alterna ajustes SGD de ambas funciones para hacer visibles sus objetivos y gradientes.'],
+];
+
+export function helpFor(title: string): string {
+  return topics.find(([pattern]) => pattern.test(title))?.[1]
+    ?? 'Este panel reúne los valores y acciones del experimento actual. Los datos se calculan y conservan en este navegador; usa los controles para explorar el resultado.';
+}

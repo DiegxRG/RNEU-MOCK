@@ -1,0 +1,47 @@
+{
+  "name": "neurolab-enterprise",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorio educativo de redes neuronales con plataforma empresarial simulada.",
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:open": "node scripts/dev.mjs --open",
+    "diagnose": "node scripts/diagnose.mjs",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/engine/*.test.mjs",
+    "test:ui": "node scripts/check-ui.mjs",
+    "demo:engine": "node scripts/demo-engine.mjs",
+    "skills:verify": "node scripts/install-skills.mjs --verify"
+  },
+  "dependencies": {
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "gsap": "3.15.0",
+    "lucide-react": "1.61.0",
+    "motion": "13.5.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-is": "19.3.1",
+    "recharts": "3.10.1",
+    "tailwind-merge": "3.7.0"
+  },
+  "overrides": {
+    "reselect": "5.2.0",
+    "tslib": "2.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright": "^1.63.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vite": "8.3.5"
+  }
+}

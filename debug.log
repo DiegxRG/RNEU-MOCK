@@ -1,0 +1,72 @@
+[1112/131046.016:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131046.705:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/131244.074:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131244.146:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/131244.320:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/131244.667:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x6324001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131244.717:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x6324001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131244.730:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x6324001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131244.742:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x6324001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/131249.083:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131612.237:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131612.302:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/131612.352:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/131612.842:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x298c001ed400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131612.888:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x298c001ed400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131612.901:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x298c001ed400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131612.914:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x298c001ed400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/131617.249:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131627.257:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131753.414:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131753.491:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/131753.538:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/131753.998:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x5b14001f6000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131754.044:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x5b14001f6000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131754.060:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x5b14001f6000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131754.074:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x5b14001f6000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/131758.436:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131909.055:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131909.147:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/131909.205:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/131909.680:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x1794001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131909.729:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x1794001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131909.742:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x1794001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/131909.757:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x1794001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/131914.072:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/131924.082:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/132115.141:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/132115.221:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/132115.270:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/132115.733:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x463c001f2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/132115.792:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x463c001f2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/132115.807:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x463c001f2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/132115.819:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x463c001f2a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/132120.151:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/132130.169:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/133816.146:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/133816.253:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/133816.373:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/133816.770:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x53fc00405800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/133816.825:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x53fc00405800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/133816.852:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x53fc00405800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/133816.873:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x53fc00405800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/133821.158:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/133831.167:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134153.800:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134153.902:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/134154.031:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/134154.477:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x9dc001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134154.538:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x9dc001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134154.571:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x9dc001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134154.595:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x9dc001f5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/134158.819:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134208.831:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134353.257:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134353.395:ERROR:ui\gl\angle_platform_impl.cc:37] vulkan_icd.cpp:157 (angle::vk::ScopedVkLoaderEnvironment::ScopedVkLoaderEnvironment): Error setting CWD for Vulkan layers init.
+[1112/134353.539:WARNING:ui\gl\angle_platform_impl.cc:42] vulkan_icd.cpp:389 (angle::vk::ChoosePhysicalDevice): Preferred device ICD not found. Using default physicalDevice instead.
+[1112/134354.056:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x3ac001f1800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134354.131:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x3ac001f1800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134354.205:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x3ac001f1800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[1112/134354.221:ERROR:gpu\command_buffer\service\gl_utils.cc:427] [.WebGL-0x3ac001f1800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[1112/134358.275:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
+[1112/134408.282:WARNING:net\dns\dns_config_service_win.cc:609] Failed to read DnsConfig.
